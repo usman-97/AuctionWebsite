@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="afc3948c-fa98-4a41-b7d0-3775028e7ff7" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/consoles/db/30c32993-9251-4821-af58-ce8c65e087db/console.sql" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectId" id="1kwpzgXFQwtCPyvzaBrEu2Tw2sj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Models" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="database.main" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\RAJA\OneDrive - University of Salford\Uni\Year 2\Semester 1\Client Server Systems\AuctionWebsite\Models" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHP Built-in Web Server.TestServer">
+    <configuration name="localhost:80" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:80">
+      <method v="2" />
+    </configuration>
+    <configuration name="TestServer" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" port="8082">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.localhost:80" />
+      <item itemvalue="PHP Built-in Web Server.TestServer" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.localhost:80" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="afc3948c-fa98-4a41-b7d0-3775028e7ff7" name="Default Changelist" comment="" />
+      <created>1606621772282</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606621772282</updated>
+      <workItem from="1606621773500" duration="2384000" />
+      <workItem from="1606701517289" duration="3899000" />
+      <workItem from="1606705465968" duration="967000" />
+      <workItem from="1606734008044" duration="1481000" />
+      <workItem from="1606756493385" duration="2531000" />
+      <workItem from="1606814115927" duration="6067000" />
+      <workItem from="1606834487713" duration="3693000" />
+      <workItem from="1606841096273" duration="9549000" />
+      <workItem from="1606865149792" duration="5520000" />
+      <workItem from="1606998966105" duration="4000000" />
+      <workItem from="1607007220776" duration="3941000" />
+      <workItem from="1607025380261" duration="9623000" />
+      <workItem from="1607039173419" duration="5290000" />
+      <workItem from="1607078479136" duration="1681000" />
+      <workItem from="1607081866139" duration="1148000" />
+      <workItem from="1607086600231" duration="159000" />
+      <workItem from="1607086805747" duration="1670000" />
+      <workItem from="1607133705796" duration="8817000" />
+      <workItem from="1607145452048" duration="848000" />
+      <workItem from="1607225018739" duration="7067000" />
+      <workItem from="1607306295801" duration="4604000" />
+      <workItem from="1607354797132" duration="297000" />
+      <workItem from="1607355109610" duration="581000" />
+      <workItem from="1607357219371" duration="12095000" />
+      <workItem from="1607375313811" duration="105000" />
+      <workItem from="1607423125998" duration="1742000" />
+      <workItem from="1607475815524" duration="9732000" />
+      <workItem from="1607517832227" duration="2171000" />
+      <workItem from="1607523765582" duration="214000" />
+      <workItem from="1607567905168" duration="2431000" />
+      <workItem from="1607640007013" duration="16838000" />
+      <workItem from="1607682083902" duration="541000" />
+      <workItem from="1607687497296" duration="475000" />
+      <workItem from="1607691374684" duration="479000" />
+      <workItem from="1607739090686" duration="9982000" />
+      <workItem from="1607825612614" duration="9619000" />
+      <workItem from="1607837347828" duration="1088000" />
+      <workItem from="1607868901301" duration="474000" />
+      <workItem from="1607944533755" duration="2454000" />
+      <workItem from="1607957362728" duration="7313000" />
+      <workItem from="1607965975633" duration="17466000" />
+      <workItem from="1607993067475" duration="4746000" />
+      <workItem from="1608031761385" duration="5996000" />
+      <workItem from="1608043766146" duration="4623000" />
+      <workItem from="1608050672436" duration="17748000" />
+      <workItem from="1608077759547" duration="18245000" />
+      <workItem from="1608167548814" duration="11243000" />
+      <workItem from="1608200526026" duration="19588000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

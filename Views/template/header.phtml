@@ -1,0 +1,99 @@
+<?php /*session_start(); */?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- Bootstrap theme -->
+    <link href="css/bootstrap-theme-2.css" rel="stylesheet">
+    <link href="css/my-style.css" rel="stylesheet">
+
+    <title>Server-Side Programming - <?php echo $view->pageTitle; ?></title>
+</head>
+
+<body role=""document">
+
+<div class="container-fluid">
+        <div class="row">
+            <div id="header" class="col">
+            <div id="title" class="col-xs-12">
+
+        <div id="menu" class="col-xs-6 col-sm-3 col-md-2">
+            <ul class="nav navbar_default nav-stacked">
+                <a href="index.php"><img class="img-rounded" src="../../images/auctionLogo.jpg" alt="Salford University" /></a>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="auctionItem.php">Cars</a></li>
+                <?php if (isset($_SESSION['loggedIn'])) : ?>
+                <li><a href="myBiddingList.php">My Bidding List</a></li>
+                <?php endif; ?>
+            </ul>
+       </div>
+                <div class="pull-right">
+
+                    <?php if (!isset($_SESSION['loggedIn'])) : ?>
+                    <div class="button">
+                        <a href="login.php">
+                            <button type="submit" name="login" value="Login" class="btn btn-success">
+                            Log in
+                            </button>
+                        </a>
+                        <a href="register.php">
+                            <button type="submit" name="register" class="btn btn-info">
+                                Sign up
+                            </button>
+                        </a>
+                    </div>
+                    <?php endif; ?>
+
+                    <div class="button">
+                        <?php if (isset($_SESSION['loggedIn']) === true) : ?>
+                        <form action="" method="post">
+                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-person-badge-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2zm4.5 0a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1h-3zM8 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm5 2.755C12.146 12.825 10.623 12 8 12s-4.146.826-5 1.755V14a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-.245z"/>
+                            </svg>
+                            <?php if (isset($_SESSION['username'])) : ?>
+                            <?php echo " -- Hello, " . $_SESSION['username'] . " -- "?>
+                            <?php endif; ?>
+                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-emoji-sunglasses-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zM2.31 5.243A1 1 0 0 1 3.28 4H6a1 1 0 0 1 1 1v.116A4.22 4.22 0 0 1 8 5c.35 0 .69.04 1 .116V5a1 1 0 0 1 1-1h2.72a1 1 0 0 1 .97 1.243l-.311 1.242A2 2 0 0 1 11.439 8H11a2 2 0 0 1-1.994-1.839A2.99 2.99 0 0 0 8 6c-.393 0-.74.064-1.006.161A2 2 0 0 1 5 8h-.438a2 2 0 0 1-1.94-1.515L2.31 5.243zM4.969 9.75a.5.5 0 1 0-.866.5A4.498 4.498 0 0 0 8 12.5a4.5 4.5 0 0 0 3.898-2.25.5.5 0 1 0-.866-.5A3.498 3.498 0 0 1 8 11.5a3.498 3.498 0 0 1-3.032-1.75z"/>
+                            </svg>
+                                <a href="../../login.php">
+                                    <input type="submit" name="logout" value="Logout" class="btn btn-success">
+                                </a>
+                        </form>
+                        <?php endif; ?>
+                    </div>
+                </div>
+
+                <!--<div class="searchBar">
+                    <form action="<?php /*$_SERVER['PHP_SELF'] */?>" method="post" class="pull-left">
+                        <input type="text" name="searchBar" value="<?php /*if (isset($_POST['searchBar'])) {echo $_POST['searchBar'];} */?>" placeholder="search. . .">
+                        <button type="submit" name="searchButton" class="btn btn-info">
+                            Search
+                        </button>
+                        <?php /*if (isset($_SESSION['searchMode'])) : */?>
+                        <button type="submit" name="clearSearch" class="btn btn-danger">
+                            Clear
+                        </button>
+                        <?php /*endif; */?>
+                    </form>
+                </div>-->
+            </div>
+            </div>
+        </div>
+    <br />
+
+    <div id="content" class="col-xs-6 col-sm-9 col-md-10">
+        <div id="pageTitle"><h1><?php echo $view->pageTitle; ?> </h1></div>
+            <br />
+
+
+

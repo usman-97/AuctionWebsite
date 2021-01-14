@@ -1,5 +1,9 @@
 <?php
 
+/**
+ * Class BidItemData
+ * It stores data from bid table
+ */
 class BidItemData {
     protected $_bidID, $_bid, $_userID, $_username;
     protected $_lotID, $_lot_title, $_lot_main, $_lot_image;

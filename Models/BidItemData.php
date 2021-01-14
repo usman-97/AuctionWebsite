@@ -9,6 +9,10 @@ class BidItemData {
     protected $_lotID, $_lot_title, $_lot_main, $_lot_image;
     protected $_auctionID, $_auction_name, $_auction_location, $_auction_datetime;
 
+    /**
+     * BidItemData constructor.
+     * @param $dbRow
+     */
     public function __construct($dbRow)
     {
         $this->_bidID = $dbRow['bidID'];

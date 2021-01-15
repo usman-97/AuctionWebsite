@@ -11,10 +11,10 @@
 
 
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="/home/aee451/public_html/AuctionWebsite/css/bootstrap.css" rel="stylesheet">
     <!-- Bootstrap theme -->
-    <link href="css/bootstrap-theme-2.css" rel="stylesheet">
-    <link href="css/my-style.css" rel="stylesheet">
+    <link href="/home/aee451/public_html/AuctionWebsite/css/bootstrap-theme-2.css" rel="stylesheet">
+    <link href="/AuctionWebsite/css/my-style.css" rel="stylesheet">
 
     <title>Server-Side Programming - <?php echo $view->pageTitle; ?></title>
 </head>
@@ -28,11 +28,11 @@
 
         <div id="menu" class="col-xs-6 col-sm-3 col-md-2">
             <ul class="nav navbar_default nav-stacked">
-                <a href="index.php"><img class="img-rounded" src="../../images/auctionLogo.jpg" alt="Salford University" /></a>
-                <li><a href="index.php">Home</a></li>
-                <li><a href="auctionItem.php">Cars</a></li>
+                <a href="../../index.php"><img class="img-rounded" src="images/auctionLogo.jpg" alt="Salford University" /></a>
+                <li><a href="../../index.php">Home</a></li>
+                <li><a href="../../auctionItem.php">Cars</a></li>
                 <?php if (isset($_SESSION['loggedIn'])) : ?>
-                <li><a href="myBiddingList.php">My Bidding List</a></li>
+                <li><a href="../../myBiddingList.php">My Bidding List</a></li>
                 <?php endif; ?>
             </ul>
        </div>
@@ -40,12 +40,12 @@
 
                     <?php if (!isset($_SESSION['loggedIn'])) : ?>
                     <div class="button">
-                        <a href="login.php">
+                        <a href="../../login.php">
                             <button type="submit" name="login" value="Login" class="btn btn-success">
                             Log in
                             </button>
                         </a>
-                        <a href="register.php">
+                        <a href="../../register.php">
                             <button type="submit" name="register" class="btn btn-info">
                                 Sign up
                             </button>

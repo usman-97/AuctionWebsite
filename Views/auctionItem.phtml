@@ -115,7 +115,7 @@
                 '<div class="row"><h3><i>' . $auctionItemData->getLotTitle() . ' - ' . $auctionItemData->getLotMain() .
                 '<input type="hidden" name="lotTitle" value="'. $auctionItemData->getLotTitle() . '">' .
                 '<input type="hidden" name="lotMain" value="'. $auctionItemData->getLotMain() . '">' .
-                '</i></h3></div>' . '<div class="row"><div class="col"><img src="images/' . $auctionItemData->getImage(). '.jpg">' .
+                '</i></h3></div>' . '<div class="row"><div class="col"><img src="../images/' . $auctionItemData->getImage(). '.jpg">' .
                 '<input type="hidden" name="lotImage" value="'. $auctionItemData->getImage() . '.jpg">' .
                 '</div><div id="description" class="col"><p>' . $auctionItemData->getDescription() . '</p><p id="openingBid"><b>Opening bid: £' . $auctionItemData->getPrice() .
                 '<input type="hidden" name="lotDescription" value="'. $auctionItemData->getDescription() . '">' .
@@ -211,7 +211,7 @@
                 <h4><i><?php echo $view->lotMain?></i></h4>
             </div>
             <div class="lotImage">
-                <img src="images/<?php echo $view->lotImage?>" alt="no image found" class="rounded-circle">
+                <img src="../images/<?php echo $view->lotImage?>" alt="no image found" class="rounded-circle">
             </div>
             <div class="description">
                 <p><?php echo $view->lotDescription?></p>
